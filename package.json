@@ -1,0 +1,25 @@
+{
+  "name": "expressjs-personelapi",
+  "version": "1.0.0",
+  "description": "A secure Express.js API for personnel and department management.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "debug": "DEBUG=* nodemon index.js"
+  },
+  "author": "okaplan1907",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "morgan": "^1.10.0",
+    "redoc-express": "^2.1.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
